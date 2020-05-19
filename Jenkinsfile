@@ -4,7 +4,6 @@ node {
       
         stage ('Build') {
 		sh "cat README.md"
-		sh "yum install"
         	sh "echo 'shell scripts to build project...'"
         }
         stage ('Tests') {
