@@ -9,7 +9,8 @@ node {
         stage ('Tests') {
 	        sh """
 		
-		echo 'shell scripts to test to server...
+		echo 'shell scripts to test to server...'
+		
 		"""
         }
       	stage ('Deploy') {
