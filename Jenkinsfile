@@ -7,10 +7,10 @@ node {
         	sh "echo 'shell scripts to build project...'"
         }
         stage ('Tests') {
-	        sh '''
+	        sh """
 		
 		echo 'shell scripts to test to server...
-		'''
+		"""
         }
       	stage ('Deploy') {
             sh "echo 'shell scripts to deploy to server...'"
